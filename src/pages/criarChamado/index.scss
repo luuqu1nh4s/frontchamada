@@ -1,0 +1,100 @@
+.pagina-cadastrar {
+    background-color: #E7ECEF;
+    min-width: 100vh;
+    min-height: 100vh;
+    color: #ffffff;
+
+    .secaomae{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        height: 100vh;
+
+        .form {
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+            background-color: #ffffff;
+            width: 50vw;
+            justify-content: center;
+
+            div {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                label {
+                    display: inline-block;
+                    justify-content: center;
+                    align-items: center;
+                    width: 300px;
+                    text-align: left;
+                    padding-right: 10px;
+                    font: 400 24px Arial;
+                    color: #000000;
+                }
+
+                input {
+                    font: 400 24px Arial;
+                    padding: 5px;
+                    border: 1px solid #000;
+                }
+            }
+
+            .alto{
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+
+                div {
+    
+                    label {
+                        display: inline-block;
+                        justify-content: center;
+                        align-items: center;
+                        width: 300px;
+                        text-align: left;
+                        padding-right: 10px;
+                        font: 400 24px Arial;
+                        color: #000000;
+                    }
+    
+                    input {
+                        font: 400 24px Arial;
+                        padding: 5px;
+                        border: 1px solid #000;
+                        width: 890px;
+                    }
+                }
+            }
+
+            .baixo{
+                display: flex;
+                flex-direction: row;
+            }
+        }
+
+        .voltar {
+            font: 400 24px Arial;
+            border-radius: 10px;
+            padding: 15px;
+        }
+
+        .save {
+            font: 400 24px Arial;
+            border-radius: 10px;
+            padding: 15px;
+            color: #ffffff;
+            background-color: #db2b39;
+        }
+
+        .volta {
+            font: 400 24px Arial;
+            border-radius: 10px;
+            padding: 15px;
+            color: #db2b39;
+            background-color: #ffffff;
+        }
+    }
+}

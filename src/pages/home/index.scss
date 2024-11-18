@@ -1,0 +1,47 @@
+.pagina-consultar {
+    background-color: #E7ECEF;
+    min-width: 100vh;
+    min-height: 100vh;
+    color: #ffffff;
+    
+    .secaomae{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+
+        .seecalls{
+            font: 400 24px Arial;
+            border-radius: 10px;
+            padding: 12px;
+        }
+
+        table {
+            background-color: #000000;
+            width: 900px;
+
+            th {
+                text-align: left;
+                padding: 5px;
+                background-color: #000000;
+                color: #ffffff;
+            }
+
+            td {
+                padding: 5px;
+                border-top: 1px solid #000;
+                background-color: #ffffff;
+                color: #000000;
+            }
+        }
+
+        .newcall{
+            font: 400 24px Arial;
+            border-radius: 10px;
+            padding: 12px;
+            color: #ffffff;
+            background-color: #db2b39;
+        }
+    }
+}
