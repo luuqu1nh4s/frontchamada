@@ -65,6 +65,8 @@ export default function NovoChamado() {
 
                 <Menu/>
 
+                <div className='imagem'></div>
+
                 <div className='form'>
                     <div className="alto">
                         <div>

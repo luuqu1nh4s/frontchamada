@@ -9,6 +9,18 @@
         flex-direction: column;
         gap: 50px;
         height: 100vh;
+        position: relative;
+        justify-content: center;
+
+        .imagem{
+            padding: 8em;
+            background-image: url('../../../public/assets/images/fundonewcall.jpg');
+            background-size: 100%;
+            background-repeat: no-repeat;
+            width: 100vw;
+
+        }
+        
 
         .form {
             display: flex;
@@ -17,6 +29,11 @@
             background-color: #ffffff;
             width: 50vw;
             justify-content: center;
+            position: absolute;
+            top: 25em;
+            
+            
+            
 
             div {
                 display: flex;
